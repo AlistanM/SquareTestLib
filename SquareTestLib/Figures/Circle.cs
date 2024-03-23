@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SquareTestLib.Figures
+﻿namespace SquareTestLib.Figures
 {
     public class Circle : ISquarable
     {
         private readonly double _radius;
+        
+        public Circle(double radius)
+        {
+            if (radius <= 0)
+            {
+                throw new InvalidOperationException("There is no circle with such radius");
+            }
 
-        public Circle(double radius) { 
             _radius = radius;
         }
 

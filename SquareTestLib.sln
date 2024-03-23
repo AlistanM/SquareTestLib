@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareTestLib", "SquareTestLib\SquareTestLib.csproj", "{27A31410-FCD9-46E8-8C04-DF29A761C197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareTestLib", "SquareTestLib\SquareTestLib.csproj", "{27A31410-FCD9-46E8-8C04-DF29A761C197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareTestLib.Tests", "SquareTestLib.Tests\SquareTestLib.Tests.csproj", "{F3C1A145-0C43-4E02-936C-BBF400C1EAE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareTest", "SquareTest\SquareTest.csproj", "{327EF79C-1058-48D2-BAAB-6AA6610EA62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareTest", "SquareTest\SquareTest.csproj", "{327EF79C-1058-48D2-BAAB-6AA6610EA62D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareTestLib.Tests", "SquareTestLib.Tests\SquareTestLib.Tests.csproj", "{C89430B4-563B-4E07-B17B-358564D167B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{27A31410-FCD9-46E8-8C04-DF29A761C197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A31410-FCD9-46E8-8C04-DF29A761C197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A31410-FCD9-46E8-8C04-DF29A761C197}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3C1A145-0C43-4E02-936C-BBF400C1EAE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3C1A145-0C43-4E02-936C-BBF400C1EAE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3C1A145-0C43-4E02-936C-BBF400C1EAE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3C1A145-0C43-4E02-936C-BBF400C1EAE2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{327EF79C-1058-48D2-BAAB-6AA6610EA62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{327EF79C-1058-48D2-BAAB-6AA6610EA62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{327EF79C-1058-48D2-BAAB-6AA6610EA62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{327EF79C-1058-48D2-BAAB-6AA6610EA62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89430B4-563B-4E07-B17B-358564D167B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89430B4-563B-4E07-B17B-358564D167B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89430B4-563B-4E07-B17B-358564D167B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89430B4-563B-4E07-B17B-358564D167B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
